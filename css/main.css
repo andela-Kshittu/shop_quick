@@ -1,0 +1,95 @@
+body{
+	background: url('../img/119.jpg');
+	background-position: center;
+	text-align: center;
+}
+#divbg{
+	width: 80%;
+	margin: 0 auto;
+	min-height: 100%;
+}
+#uncompleted,#completed{
+	display: block;
+	max-width: 95%;
+	min-width: 95%;
+	min-height: 35%;
+	border: 5px solid black;
+	border-radius: 10px;
+	margin-bottom: 3em;
+} 
+hr{
+	margin: -1em auto;
+	max-width: 40%;
+	min-width: 40%;
+	height: 3px;
+	background: #F2BFF1;
+	border-radius: 10px;
+}
+div{
+	margin: auto auto;
+	background: rgba(255,255,255,.3);
+}
+header{
+	background: rgba(255,255,255,.3);
+	max-width: 50%;
+	margin: auto auto;
+	color: #F2BFF1;
+	letter-spacing: 5px;
+	border-radius: 10px;
+}
+#wrapper{
+	background: rgba(255,255,255,.3);
+	border-radius: 14px 14px 14px 14px;
+}
+#container{
+	background:rgba(255,255,255,.3);
+}
+#genContainer{
+	max-width: 60%;
+	min-height: 100%;
+	border: 5px solid white;
+	margin: auto auto;
+	background: url('../img/450.jpg') no-repeat center/cover rgba(160,0,0,.5);
+	border-radius: 16px;
+}
+ol{
+	text-align: left;
+	padding: 1.5em 1.5em;
+	margin: 2em 0;
+	list-style-position: inside;
+}
+li{
+	padding: 0 10px;
+	margin: 0 0;
+}
+#userItem{
+	width: 80%;
+	height: 2.5em;
+	border-radius: 10px;
+	border: 3px dotted black;
+	background: rgba(255,255,255,.3);
+	text-align: center;
+	letter-spacing: 5px;
+}
+#delete{
+	display: block;
+	width: 40%;
+	height: 1.7em;
+	margin: 0.75em 1.5em;
+	border-radius: 10px;
+	border: 2px dotted black;
+	background: rgba(160,0,0,.2);
+}
+#addItem{
+	width: 15%;
+	height: 2.7em;
+	margin-top: 10px;
+	border-radius: 10px;
+	border: 2px dotted black;
+	background: rgba(160,0,0,.2);
+}
+.list{
+	margin: 0px 15px;
+	padding: 0px 15px;
+	text-align: center;
+}

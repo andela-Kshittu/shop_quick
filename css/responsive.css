@@ -1,0 +1,63 @@
+/*480px screen size*/
+@media screen and (max-width: 480px){
+#divbg{
+	width: 100%
+}
+#uncompleted{
+	border: 2px solid black;
+	margin-bottom: 1em;
+}
+#completed{
+border: 2px solid black;
+	}
+hr{
+	margin: -1.2em auto;
+	height: 2px;
+}
+header{
+	max-width: 100%;
+}
+#genContainer{
+	max-width: 100%;
+	background: rgba(160,0,0,.5);
+}
+#delete{
+	width: 50%;
+	height: 1.4em;
+}
+
+#addItem{
+	width: 50%;
+}
+}
+/*980px screen size*/
+@media screen and (max-width: 980px){
+#divbg{
+	width: 100%
+}
+#uncompleted{
+	border: 2px solid black;
+	margin-bottom: 1em;
+}
+#completed{
+border: 2px solid black;
+	}
+hr{
+	margin: -1.2em auto;
+	height: 2px;
+}
+header{
+	max-width: 100%;
+}
+#genContainer{
+	max-width: 100%;
+	background: url('../img/450.jpg') no-repeat center/cover rgba(160,0,0,.5);
+}
+#delete{
+	width: 25%;
+	height: 1.4em;
+}
+
+#addItem{
+	width: 50%;
+}
