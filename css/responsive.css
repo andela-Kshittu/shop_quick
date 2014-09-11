@@ -1,63 +1,78 @@
-/*480px screen size*/
+/*MEDIA QUERY 480px screen size*/
 @media screen and (max-width: 480px){
-#divbg{
-	width: 100%
-}
-#uncompleted{
-	border: 2px solid black;
-	margin-bottom: 1em;
-}
-#completed{
-border: 2px solid black;
+	#divbg{
+		width: 100%
 	}
-hr{
-	margin: -1.2em auto;
-	height: 2px;
-}
-header{
-	max-width: 100%;
-}
-#genContainer{
-	max-width: 100%;
-	background: rgba(160,0,0,.5);
-}
-#delete{
-	width: 50%;
-	height: 1.4em;
-}
+	#uncompleted{
+		border: 2px solid black;
+		margin-bottom: 1em;
+	}
+	#completed{
+	border: 2px solid black;
+		}
+	hr{
+		margin: -1.2em auto;
+		height: 2px;
+	}
+	#innerhead{
+		max-width: 100%;
+	}
+	h1{
+		font-size: 25px;
+	}
+	li{
+		padding: 4px 0px;
+		margin: 0 0;
+	}
+	ol{
+		text-align: left;
+		padding: 0em 0.2em;
+		margin: 2em 0;
+	}
+	#genContainer{
+		max-width: 100%;
+		background: rgba(160,0,0,.5);
+	}
 
-#addItem{
-	width: 50%;
+	#addItem{
+		width: 50%;
+	}
+	#delete, #edit {
+		margin: 0 0.2em;
+		border-radius: 10px;
+		border: 2px dotted black;
+		background: rgba(160,0,0,.2);
+	}
+	input[type="checkbox"]{
+		margin-left: 0;
+		padding-left: 0;
+	}
 }
-}
-/*980px screen size*/
+/*MEDIA QUERY FOR 980px screen size*/
 @media screen and (max-width: 980px){
-#divbg{
-	width: 100%
-}
-#uncompleted{
-	border: 2px solid black;
-	margin-bottom: 1em;
-}
-#completed{
-border: 2px solid black;
+	#divbg{
+		width: 100%
 	}
-hr{
-	margin: -1.2em auto;
-	height: 2px;
-}
-header{
-	max-width: 100%;
-}
-#genContainer{
-	max-width: 100%;
-	background: url('../img/450.jpg') no-repeat center/cover rgba(160,0,0,.5);
-}
-#delete{
-	width: 25%;
-	height: 1.4em;
-}
+	#uncompleted{
+		border: 2px solid black;
+		margin-bottom: 1em;
+	}
+	#completed{
+	border: 2px solid black;
+		}
+	hr{
+		margin: -1.2em auto;
+		height: 2px;
+	}
+	#innerhead{
+		max-width: 100%;
+	}
+	#genContainer{
+		max-width: 100%;
+		background: url('../img/450.jpg') no-repeat center/cover rgba(160,0,0,.5);
+	}
 
-#addItem{
-	width: 50%;
+	#addItem{
+		width: 50%;
+	}
 }
