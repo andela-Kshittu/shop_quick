@@ -16,7 +16,7 @@ hr{
 ol{
 	text-align: left;
 	padding: 0em 1.5em;
-	margin: 2em 0;
+	margin: 1em 0;
 	list-style-position: inside;
 	overflow-right: auto;
 }
@@ -88,6 +88,7 @@ p{
     text-shadow: 5px 5px 5px white;
     color: tomato;
     font-family: 'Playball', cursive;
+    display: none;
 }
 
 #wrapper{
@@ -138,7 +139,11 @@ p{
 	padding: 0px 15px;
 	text-align: center;
 }
+.hideicon{
+	margin-top: 17px;
+	margin-bottom: 0px; 
 
+}
 
 
 
