@@ -1,0 +1,154 @@
+/*HTML ELEMENTS*/
+body{
+	background: url('../img/119.jpg');
+	background-position: center;
+	text-align: center;
+	padding: 0 0;
+}
+hr{
+	margin: -1em auto;
+	max-width: 40%;
+	min-width: 40%;
+	height: 3px;
+	background: #F2BFF1;
+	border-radius: 10px;
+}
+ol{
+	text-align: left;
+	padding: 0em 1.5em;
+	margin: 1em 0;
+	list-style-position: inside;
+	overflow-right: auto;
+}
+li{
+	padding: 5px 10px;
+	margin: 0 0;
+}
+div{
+	margin: auto auto;
+	background: rgba(255,255,255,.3);
+}
+h1{
+	display: inline;
+	text-align: left;
+	font-size: 55px;
+}
+p{
+	display: inline;
+	text-align: right;
+	font-size: 16px;
+	letter-spacing: 3px;
+	text-shadow: 5px 5px 5px white;
+}
+
+/*ELEMENT IDS*/
+#divbg{
+	width: 80%;
+	margin: 0 auto;
+	min-height: 600px;
+	padding: 0;
+	border-radius: 10px;
+}
+#uncompleted,#completed{
+	display: block;
+	max-width: 95%;
+	min-width: 95%;
+	max-height: 180px;
+	border: 2px solid black;
+	border-radius: 10px;
+	margin-bottom: 3em;
+	overflow: auto;
+} 
+#completed li{
+	text-decoration: line-through;
+	-moz-text-decoration-color: red; 
+    text-decoration-color: red;
+}
+#innerhead{
+	background: rgba(255,255,255,.3);
+	max-width: 50%;
+	margin: 0 auto;
+	/*color: #F2BFF1;*/
+	letter-spacing: 5px;
+	border-radius: 10px;
+	text-shadow: 5px 5px 5px white;
+	font-family: 'Marck Script', cursive;
+	color: tomato;
+}
+#mainhead{
+    height:65px;
+    width: 80%;
+    margin: auto auto 5px;
+    background: rgba(255,255,255,.3);
+    padding: 0;
+    border-radius: 10px;
+    text-align: left;
+    letter-spacing: 20px;
+    vertical-align: middle;
+    text-shadow: 5px 5px 5px white;
+    color: tomato;
+    font-family: 'Playball', cursive;
+    display: none;
+}
+
+#wrapper{
+	background: rgba(255,255,255,.3);
+	border-radius: 14px 14px 14px 14px;
+}
+#container{
+	background:rgba(255,255,255,.3);
+}
+#genContainer{
+	max-width: 60%;
+	min-height:600px;
+	border: 2px solid white;
+	margin: 0 auto;
+	background: url('../img/450.jpg') no-repeat center/cover rgba(160,0,0,.5);
+	border-radius: 16px;
+}
+
+#userItem{
+	width: 80%;
+	height: 2.5em;
+	border-radius: 10px;
+	border: 3px dotted black;
+	background: rgba(255,255,255,.3);
+	text-align: center;
+	letter-spacing: 5px;
+	font-family: 'Marvel', sans-serif;
+	font-size: 16px;
+}
+#delete,#edit{
+	float: right;
+	margin: 0 1.5em;
+	border-radius: 10px;
+	border: 2px dotted black;
+	background: rgba(160,0,0,.2);
+}
+#addItem{
+	width: 15%;
+	height: 2.7em;
+	margin-top: 10px;
+	border-radius: 10px;
+	border: 2px dotted black;
+	background: rgba(160,0,0,.2);
+}
+/*ELEMENTS CLASS*/
+.list{
+	margin: 0px 15px;
+	padding: 0px 15px;
+	text-align: center;
+}
+.hideicon{
+	margin-top: 17px;
+	margin-bottom: 0px; 
+
+}
+
+
+
+
+
+
+
+
