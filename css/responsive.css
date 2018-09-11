@@ -42,7 +42,7 @@
 	}
 	#delete, #edit {
 		margin: 0 0.2em;
-		border-radius: 10px;
+		border-radius: 20px;
 		border: 2px dotted black;
 		background: rgba(160,0,0,.2);
 	}
